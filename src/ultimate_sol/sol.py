@@ -63,7 +63,7 @@ class SolClient:
         )
         return response.json()
 
-    async def get_sol_balance(self, account: str) -> float:
+    def get_sol_balance(self, account: str) -> float:
         """
         Returns SOL account balance.
         """
