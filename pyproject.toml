@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ultimate_sol"
+version = "0.0.1"
+authors = [
+    { name = "smbd0x", email = "smbd0x@rambler.ru" },
+]
+description = "This library contains a set of functions for interacting with Solana blockchain, as well as some third-party APIs such as Jupiter, DexScreener, etc."
+readme = "README.md"
+requires-python = ">=3.6.0"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = ['base58==2.1.1',
+    'construct==2.10.68',
+    'httpx==0.27.2',
+    'solana==0.35.0',
+    'solders==0.21.0', ]
+
+[project.urls]
+Homepage = 'https://github.com/smbd0x'
