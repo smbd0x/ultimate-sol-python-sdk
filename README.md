@@ -1,4 +1,21 @@
-# Ultimate-Sol Python SDK #
+
+
+<div align="center">
+<h1>Ultimate-Sol Python SDK</h1>
+<img src="https://github.com/smbd0x/ultimate-sol-python-sdk/blob/master/images/logo-banner.png?raw=true" width="30%" height="30%">
+</div>
+
+<p align="center">
+    <img src="https://img.shields.io/github/stars/smbd0x/ultimate-sol-python-sdk">
+    <img src="https://img.shields.io/github/forks/smbd0x/ultimate-sol-python-sdk">
+    <br>
+    <img src="https://img.shields.io/github/issues/smbd0x/ultimate-sol-python-sdk">
+    <img src="https://img.shields.io/github/issues-closed/smbd0x/ultimate-sol-python-sdk">
+    <br>
+    <img src="https://img.shields.io/github/languages/top/smbd0x/ultimate-sol-python-sdk">
+    <img src="https://img.shields.io/github/last-commit/smbd0x/ultimate-sol-python-sdk">
+    <br>
+</p>
 
 ## What is this? ##
 This library contains a set of functions for interacting with Solana blockchain, as well as some third-party APIs such as Jupiter, DexScreener, etc.
