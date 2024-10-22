@@ -5,8 +5,8 @@ from solana.rpc.types import TokenAccountOpts
 from solders import message
 from solders.keypair import Keypair
 
-from metadata import *
-from solana_fm import get_owner_token_accounts
+from .metadata import *
+from .solana_fm import get_owner_token_accounts
 
 
 class SolClient:
